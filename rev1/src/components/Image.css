@@ -1,0 +1,13 @@
+.image{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+}
+
+.image_viewer {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}

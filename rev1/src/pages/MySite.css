@@ -1,0 +1,33 @@
+html {
+    scroll-snap-type: y mandatory;
+}
+
+.mysite {
+    height: 100vh;
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+
+.mysite_image {
+    position: relative;
+    height: 800px;
+    border-radius: 30px;
+    overflow: scroll;
+    width: 60%;
+    max-width: 500px;
+    scroll-snap-type: y mandatory;
+}
+/*max-width: 80%;     add this for portrait videos*/ 
+
+
+/* Hide scrollbar for all browsers */
+* {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  }
+  
+  *::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+  }
+  

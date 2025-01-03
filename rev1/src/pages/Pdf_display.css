@@ -1,0 +1,20 @@
+.pdf_display {
+    position: absolute;
+    color: white;
+    top: 1px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.pdf_display_text{
+    flex: 1;
+    color: white;
+}
+
+.pdf_display_text > p {
+    padding-top: 10px;
+}
+
+.pdf_display_text > h3 {
+    padding-top: 5px;
+}
